@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 def task1():
-    driver=webdrivckkbsvhzbjkchjhhzbcacker.Chrome()
+    driver=webdriver.Chrome()
     driver.get("https://www.zomato.com/ncr")
     page=driver.execute_script("return document.documentElement.outerHTML")
     driver.quit()
